@@ -1,4 +1,5 @@
 import 'package:aslab_travel/const.dart';
+import 'package:aslab_travel/latihanmodul/pertemuan6.dart';
 import 'package:aslab_travel/model/landing_model.dart';
 
 import 'package:flutter/material.dart';
@@ -111,7 +112,7 @@ class _LandingPageOneState extends State<LandingPageOne> {
                         children: [
                           GestureDetector(
                             onTap: () {
-
+                              Navigator.push(context, MaterialPageRoute(builder: (context)=> Pertemuan6()));
                             },
                             child: Container(
                               height: 60,
